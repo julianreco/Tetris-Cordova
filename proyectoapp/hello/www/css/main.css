@@ -1,0 +1,104 @@
+#score{
+    display: inline-block;
+}
+
+div{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+}
+
+canvas{
+    display: block;
+    margin:0 auto;
+}
+
+.botones{
+    margin-top: 5px;
+    padding: 7px;
+}
+
+.boton{
+    padding: 7px;
+}
+
+.juego{
+    background-image: url("../img/rusos.gif");  
+}
+
+.music1{
+    background-image: url("../img/play.png")  no-repeat;
+}
+
+.music2{
+    background-image: url("../img/pause.png") no-repeat; 
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: block;
+}
+
+.ocultar{
+    display: none;
+}
+
+#inicio{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#initial{
+    float: left;
+    width: 440;
+    height: 777;
+    margin-left: -20;
+    margin-top: -10;
+    margin-bottom: -60;
+    margin-right: -20;
+}
+
+#botoneras{
+    float: left;
+    position: absolute;
+    margin-top: 550;
+    margin-left: 145;
+}
+
+.botonmenu{
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #0952c6;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    margin: 15;
+}
+
+.botonmenu:hover {background-color: #3f73c6;}
+
+.botonmenu:active {
+  background-color: #3f73c6;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#credits{
+    float: left;
+    width: 440;
+    height: 777;
+    margin-left: -20;
+    margin-top: -10;
+    margin-bottom: -60;
+    margin-right: -20;
+}
