@@ -1,6 +1,8 @@
 const cvs = document.getElementById("tetris");
 const ctx = cvs.getContext("2d");
 const scoreElement = document.getElementById("score");
+var btnatras = document.getElementById("atras");
+btnatras.addEventListener("click", volver);
 var izquierda =document.getElementById("izquierda");
 var derecha =document.getElementById("derecha");
 var abajo =document.getElementById("abajo");
@@ -10,6 +12,9 @@ const COL = COLUMN = 10;
 const SQ = squareSize = 30;
 const VACANT = "WHITE"; // color of an empty square
 
+function volver(){
+    location.reload();
+}
 // draw a square
 function drawSquare(x,y,color){
     ctx.fillStyle = color;
@@ -170,7 +175,7 @@ Piece.prototype.lock = function(){
             }
             // pieces to lock on top = game over
             if(this.y + r < 0){
-                alert("Game Over");
+                modal.className="modales fadeIn";
                 // stop request animation frame
                 gameOver = true;
                 break;

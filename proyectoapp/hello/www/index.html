@@ -17,7 +17,9 @@
 
 <section class="principal" id="section02">
 <section class="juego">
-    <canvas id="tetris" class="animated heartBeat" width="300" height="600"></canvas>
+    <canvas id="tetris" class="animated heartBeat" width="300" height="600">
+        
+    </canvas>
 </section>
     <div>
         Score : <div id="score">0</div>
@@ -31,12 +33,17 @@
     
         <input type="image" class="music1 btns" id="play" src="img/play.png" />
         <input type="image" class="music2 btns" id="pause" src="img/pause.png" />
+        
 
 </section>
 
 <section class="creditos" id="section03">
     <img src="img/creditos.jpg" id="credits">
 </section>
+ <div id="modal"class="modales ocultar">
+     <h5>Game Over</h5>
+     <button class="regresar" id="atras">Reintentar</button>
+</div>
     <script src="js/tetrominoes.js"></script>
     <script src="js/tetris.js"></script>
     <script src="js/musica.js"></script>
