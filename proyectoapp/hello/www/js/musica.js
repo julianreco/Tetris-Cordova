@@ -16,6 +16,7 @@ function inicio(){
 			section01.className="ocultar"
             section02.className="principal animated bounceInDown"
             section03.className="ocultar"
+            pause.className="music2 ocultar";
         });
         
         credBtn.addEventListener("click", function() {
@@ -27,14 +28,17 @@ function inicio(){
 		document.getElementById("play").addEventListener("click", function() {
 			// Si deseamos que inicie siempre desde el principio
 			//audioElement.currentTime = 0;
- 
+            play.className="music1 ocultar";
+            pause.className="music2 animated fadeIn";
 			// iniciamos el audio
 			audioElement.play();
         });
         
  
 		document.getElementById("pause").addEventListener("click", function() {
-			// hacemos pausa
+            // hacemos pausa
+            play.className="music1 animated fadeIn";
+            pause.className="music2 ocultar";
 			audioElement.pause();
         });
         

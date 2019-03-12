@@ -9,6 +9,21 @@ div{
     text-align: center;
 }
 
+
+
+#play{
+    position: relative;
+    top:-1px;
+    left:470px;
+}
+
+#pause{
+
+    position: relative;
+    top:-1px;
+    left:470px;
+}
+
 canvas{
     display: block;
     margin:0 auto;
@@ -21,6 +36,8 @@ canvas{
 
 .boton{
     padding: 7px;
+    border:0 none !important;
+    outline:0 !important;
 }
 
 .juego{
