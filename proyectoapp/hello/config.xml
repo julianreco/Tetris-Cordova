@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.upb.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>Cyka Tetris</name>
+    <name>Tertris</name>
     <description>
-        Mejor Tetris Para Jugar a la Manera mas Dank Meme Posible no es algo muy pro pero ahi esta :v
+        Juego basado en Tetris
     </description>
     <author email="julian.restrepoc@gmail.com" href="https://sapnupuas.azurewebsites.net">
             Julian Restrepo C
